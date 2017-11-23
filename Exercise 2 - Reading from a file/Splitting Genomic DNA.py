@@ -7,7 +7,8 @@ exonFile = open("Exons.txt", "w")
 dnaSequence = file.read()
 
 #calcualate the length of the sequence
-lengthSequence = len(dnaSequence)
+lengthSequence = len(dnaSequence)+1
+
 
 #finds both exons and prints them
 exon1 = dnaSequence[0:63]

@@ -2,7 +2,7 @@
 dnaSequence = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 
 #counts the total length of the sequence
-lengthSequence = len(dnaSequence)
+lengthSequence = len(dnaSequence)+1
 
 #count the number of C's and G's in the sequence
 numG = dnaSequence.count("G")

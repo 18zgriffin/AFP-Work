@@ -1,7 +1,7 @@
 dnaSequence = "ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT"
 
 #finds the length of the sequence and then finds and prints the start location of the recognition site
-length = len(dnaSequence)
+length = len(dnaSequence)+1
 locale = dnaSequence.find("GAATTC")
 print("The recognition site starts at", locale)
 
