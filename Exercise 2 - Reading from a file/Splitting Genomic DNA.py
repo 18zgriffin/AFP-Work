@@ -1,10 +1,10 @@
 #opens all needed files
-file = open("genomic_dna.txt")
+mainfile = open("genomic_dna.txt")
 intronFile = open("Intron.txt", "w")
 exonFile = open("Exons.txt", "w")
 
 #assigns main file data to a variable
-dnaSequence = file.read()
+dnaSequence = mainfile.read()
 
 #calcualate the length of the sequence
 lengthSequence = len(dnaSequence)+1
