@@ -4,8 +4,13 @@ trimmedFile = open("trimmed_sequences.txt", "w")
 
 for line in mainFile:
     lineLength = len(line)
-    trimmedline = line[14:lineLength]
-    print(trimmedline)
-    print("The trimmed line is", len(trimmedline), "values long")
-    trimmedFile.write(trimmedline)
+    trimmedLine = line[14:lineLength]
+
+    print(trimmedLine)
+    print("The trimmed line is", len(trimmedLine), "values long")
+
+    trimmedFile.write(trimmedLine)
     trimmedFile.write("\n")
+
+trimmedFile.close()
+mainFile.close()
